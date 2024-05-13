@@ -157,7 +157,10 @@ body {
 
 .nav__item a {
   display: block;
-  padding: 1rem 1rem; }
+  padding: 1rem 1rem; 
+  font-size: 17px;
+  color: #7e7e7e;
+}
 
   .nav__item a:hover {
     color: #216cb3;
@@ -192,7 +195,7 @@ body {
         display: block;
         height: 2px;
         background: #80c700;
-        width: 30px;
+        width: 22px;
         left: 0px;
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
@@ -244,17 +247,18 @@ body {
 }
 .cta-text {
   padding-left: 15px;
-  display: inline-block;
+  display: flow-root;
 }
 .cta-text h4 {
   color: #80c700;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 7px;
 }
 .cta-text span {
   color: #757575;
   font-size: 15px;
+  line-height: 25px;
 }
 .footer-content {
   position: relative;
@@ -391,3 +395,87 @@ body {
   .footer-social-icon {
     margin-bottom: 15px;
   } }
+
+  body {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #1C1C1C;
+
+}
+
+.slider-container{
+  border: 1px solid #555;
+  margin-top:15px;
+ 
+}
+
+.main-carousel {
+  /* background: #EEE; */
+
+}
+
+.slider-section{
+  overflow: hidden;
+  display:block;
+  /*max-width: 880px;*/
+  margin: auto;
+  padding-top:15px;
+  padding-bottom:40px;
+}
+
+.carousel-cover{
+}
+
+.carousel-cell {
+  width: 55%;
+  height: auto;
+  margin-right: 30px;
+  counter-increment: carousel-cell;
+}
+
+@media only screen and (max-width: 960px) {
+ .carousel-cell {
+  width: 100%; /* full width */
+  }
+}
+
+.carousel-cell.is-selected .carousel-cover {
+
+}
+
+.carousel-content {
+  background:black;
+  box-sizing: border-box;
+  display: inline-block;
+  color:white;
+} 
+.carousel-content h5 {
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.carousel-cover img{
+  box-sizing: border-box;
+  width:100%;
+  height:auto;
+  padding:50px;
+}
+
+/*
+.carousel-cell:before {
+display: block;
+text-align: center;
+content: counter(carousel-cell);
+line-height: 200px;
+font-size: 80px;
+color: white;
+}
+*/
+
+h1,h2,h3,h4,h5{
+  color:white;
+}
+
+.footer-div {
+  padding-bottom: 15px;
+}
