@@ -515,9 +515,11 @@ h5.sub-tittle {
     font-size: 23px;
     padding: 20px 0px 13px;
     word-spacing: 0px;
+    text-align: center;
   }
-
+  
   h5.sub-tittle {
+    text-align: center;
     font-size: 17px;
   }
 }
