@@ -479,3 +479,10 @@ h1,h2,h3,h4,h5{
 .footer-div {
   padding-bottom: 15px;
 }
+
+section.clients.section {
+  background: #f5f6f8;
+  border: none;
+  outline: none;
+  padding: 15px 0;
+}
