@@ -486,3 +486,38 @@ section.clients.section {
   outline: none;
   padding: 15px 0;
 }
+
+section.clients.section img.img-fluid {
+  transition: transform .2s; 
+  padding: 10px;
+}
+
+section.clients.section img.img-fluid:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+h2.title-h2 {
+  color: #80c700;
+  font-size: 35px;
+  padding: 20px 0 15px 0;
+  word-spacing: 7px;
+}
+
+
+h5.sub-tittle {
+  color: #757575;
+  font-size:20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 660px) {
+  h2.title-h2 {
+    font-size: 23px;
+    padding: 20px 0px 13px;
+    word-spacing: 0px;
+  }
+
+  h5.sub-tittle {
+    font-size: 17px;
+  }
+}
