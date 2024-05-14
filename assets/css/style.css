@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+@font-face {
+  font-family: TTCommonsMedium;
+  src: url('./../fonts/TTCommonsMedium.otf');
+}
+
+@font-face {
+  font-family: ChampagneLimousines;
+  src: url('./../fonts/ChampagneLimousines.ttf');
+}
+
+@font-face {
+  font-family: casolfch;
+  src: url('./../fonts/casolfch.ttf');
+}
+
 .carousel .carousel-indicators button {
   width: 12px;
  height: 12px;
@@ -158,7 +173,7 @@ body {
 .nav__item a {
   display: block;
   padding: 1rem 1rem; 
-  font-size: 17px;
+  font-size: 20px;
   color: #7e7e7e;
 }
 
@@ -250,14 +265,15 @@ body {
   display: flow-root;
 }
 .cta-text h4 {
+  font-family: casolfch;
   color: #80c700;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 7px;
 }
 .cta-text span {
   color: #757575;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 25px;
 }
 .footer-content {
@@ -280,17 +296,17 @@ body {
 }
 .footer-text p {
   margin-bottom: 14px;
-  font-size: 14px;
+  font-size: 17px;
       color: #7e7e7e;
   line-height: 28px;
 }
 .footer-social-icon span {
   color: #80c700;
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
   margin-bottom: 20px;
+  font-family: casolfch;
 }
 .footer-social-icon a {
   color: #fff;
@@ -315,8 +331,9 @@ body {
   background: #DD4B39;
 }
 .footer-widget-heading h3 {
+  font-family: casolfch;
   color: #80c700;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 40px;
   position: relative;
@@ -340,6 +357,7 @@ body {
   color: #80c700;
 }
 .footer-widget ul li a {
+  font-size: 19px;
   color: #878787;
   text-transform: capitalize;
 }
@@ -497,16 +515,19 @@ section.clients.section img.img-fluid:hover {
 }
 
 h2.title-h2 {
+  font-family: casolfch;
   color: #80c700;
   font-size: 35px;
   padding: 20px 0 15px 0;
-  word-spacing: 7px;
+  word-spacing: 7px;;
+  letter-spacing: 3px;
 }
 
 
 h5.sub-tittle {
+  font-family: TTCommonsMedium;
   color: #757575;
-  font-size:20px;
+  font-size:25px;
   padding-bottom: 20px;
 }
 
@@ -522,4 +543,8 @@ h5.sub-tittle {
     text-align: center;
     font-size: 17px;
   }
+}
+
+span, p, a {
+  font-family: TTCommonsMedium;
 }
