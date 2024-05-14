@@ -270,6 +270,7 @@ body {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 7px;
+  letter-spacing: 1px;
 }
 .cta-text span {
   color: #757575;
@@ -533,7 +534,7 @@ h5.sub-tittle {
 
 @media (max-width: 660px) {
   h2.title-h2 {
-    font-size: 23px;
+    font-size: 18px;
     padding: 20px 0px 13px;
     word-spacing: 0px;
     text-align: center;
