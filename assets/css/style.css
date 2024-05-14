@@ -306,6 +306,7 @@ body {
   font-size: 22px;
   margin-bottom: 20px;
   font-family: casolfch;
+  letter-spacing: 1px;
 }
 .footer-social-icon a {
   color: #fff;
@@ -531,7 +532,8 @@ h5.sub-tittle {
 
 @media (max-width: 660px) {
   h2.title-h2 {
-    font-size: 18px;
+    letter-spacing: 1px;
+    font-size: 20px;
     padding: 20px 0px 13px;
     word-spacing: 0px;
     text-align: center;
