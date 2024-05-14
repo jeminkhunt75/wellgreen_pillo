@@ -268,7 +268,6 @@ body {
   font-family: casolfch;
   color: #80c700;
   font-size: 22px;
-  font-weight: 600;
   margin-bottom: 7px;
   letter-spacing: 1px;
 }
@@ -305,7 +304,6 @@ body {
   color: #80c700;
   display: block;
   font-size: 22px;
-  font-weight: 700;
   margin-bottom: 20px;
   font-family: casolfch;
 }
@@ -335,7 +333,6 @@ body {
   font-family: casolfch;
   color: #80c700;
   font-size: 22px;
-  font-weight: 600;
   margin-bottom: 40px;
   position: relative;
 }
