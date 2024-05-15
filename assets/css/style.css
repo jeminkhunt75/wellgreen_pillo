@@ -499,7 +499,7 @@ section.clients.section {
   background: #ffffff;
   border: none;
   outline: none;
-  padding: 15px 0;
+  padding: 40px 0;
 }
 
 section.clients.section img.img-fluid {
@@ -588,4 +588,92 @@ span, p, a {
   .section_padding  {
     padding: 20px 0;
   }
+}
+
+
+/*--------------------------------------------------------------
+# about-us Section
+--------------------------------------------------------------*/
+.about-us .about-us-item {
+  color: color-mix(in srgb, #212529, transparent 20%);
+}
+
+.about-us .about-us-item+.about-us-item {
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .about-us .about-us-item+.about-us-item {
+    margin-top: 40px;
+  }
+}
+
+.about-us .about-us-item .btn-get-started {
+  background-color: #80c700;
+  color: #ffffff;
+  padding: 8px 30px 10px 30px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.about-us .about-us-item .btn-get-started:hover {
+  background-color: color-mix(in srgb, #216cb3, transparent 10%);
+}
+
+.about-us .about-us-item img {
+  border: 6px solid #ffffff;
+  box-shadow: 0 15px 30px -10px color-mix(in srgb, #212529, transparent 75%);
+}
+
+.about-us .about-us-item .about-us-img-bg {
+  position: relative;
+  min-height: 500px;
+}
+
+@media (max-width: 640px) {
+  .about-us .about-us-item .about-us-img-bg {
+    min-height: 300px;
+  }
+}
+
+.about-us .about-us-item .about-us-img-bg img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-us .about-us-item .image-stack {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.about-us .about-us-item .image-stack .stack-back {
+  grid-column: 4/-1;
+  grid-row: 1;
+  width: 100%;
+  z-index: 1;
+}
+
+.about-us .about-us-item .image-stack .stack-front {
+  grid-row: 1;
+  grid-column: 1/span 8;
+  margin-top: 20%;
+  width: 100%;
+  z-index: 2;
+}
+
+section#about-us {
+  padding: 40px 0;
+  background: #f5f6f8;
+}
+
+.about-para {
+  color: #757575;
+  font-size: 19px;
+  line-height: 25px;
+  text-align: justify;
 }
