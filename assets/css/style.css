@@ -677,3 +677,7 @@ section#about-us {
   line-height: 25px;
   text-align: justify;
 }
+
+.row.gy-4.align-items-center.about-us-item {
+  margin-top: 5px;
+}
