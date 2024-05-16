@@ -140,7 +140,9 @@ body {
   @media (min-width: 660px) {
     .site-header__wrapper {
       padding-top: 0;
-      padding-bottom: 0; } }
+      padding-bottom: 0; } 
+    
+    }
 @media (max-width: 659px) {
   .site-header__end {
     padding-right: 4rem; } }
@@ -545,6 +547,10 @@ h5.sub-tittle {
   h5.sub-tittle {
     text-align: center;
     font-size: 17px;
+  }
+
+  .main-title-page {
+    font-size: 40px !important;
   }
 }
 
