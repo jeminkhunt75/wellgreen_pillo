@@ -530,6 +530,11 @@ h5.sub-tittle {
   padding-bottom: 20px;
 }
 
+.main-title-page {
+  padding: 50px 0 !important;
+  font-size: 40px !important;
+}
+
 @media (max-width: 768px) {
   h2.title-h2 {
     font-size: 30px;
@@ -550,6 +555,7 @@ h5.sub-tittle {
   }
 
   .main-title-page {
+    padding: 50px 0 20px 0 !important;
     font-size: 40px !important;
   }
 }
