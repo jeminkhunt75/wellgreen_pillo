@@ -33,7 +33,8 @@
                             <i></i>
                         </a>
                         <ul class="nav__wrapper">
-                            <li class="nav__item"><a href="./../index.html">Home</a></li>
+                            <li class="nav__item"><a
+                                    href="./../index.html">Home</a></li>
                             <li class="nav__item"><a href="./../about-us/">About
                                     Us</a></li>
                             <li class="nav__item"><a href="#">Products</a></li>
@@ -57,31 +58,110 @@
         <!-- Header End -->
 
         <!-- Contact Us Start -->
-        <div class="contact-us">
+        <div class="contact-us" id="contact">
             <div class="container">
                 <h2 class="title-h2 text-center main-title-page">Contact Us</h2>
-    
-                <div class="row content-row mt-4 mt-lg-2">
-                    <div class="card p-4 pb-md-5 col-12 col-md-6 col-lg-4">
-                        <div class="card-box">
-                            <div class="card-inner-block">
-                                <div class="title">
-                                    <span class="title-number">/01</span>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="map mb-4 mb-lg-0">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.566442523924!2d72.8443007744839!3d21.12984448430052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be051e05555553f%3A0x54fb9c07e1730144!2sWellgreen%20Pillow%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1716035290246!5m2!1sen!2sin"
+                                style="border:0; width: 100%; height: 300px;"
+                                style="border:0;" allowfullscreen loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="form">
+                            <form action="javascript:;" method="post"
+                                role="form" class="php-email-form">
+                                <div class="row">
+                                    <div class="form-group col-lg-6">
+                                        <input type="text" name="name"
+                                            class="form-control" id="name"
+                                            placeholder="Your Name" required>
+                                    </div>
+                                    <div
+                                        class="form-group col-lg-6 mt-3 mt-lg-0">
+                                        <input type="email" class="form-control"
+                                            name="email" id="email"
+                                            placeholder="Your Email" required>
+                                    </div>
                                 </div>
-                                <h4 class="title-second">
-                                    Rajkot Branch
+                                <div class="form-group mt-3">
+                                    <input type="text" class="form-control"
+                                        name="subject" id="subject"
+                                        placeholder="Subject" required>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea class="form-control"
+                                        name="message" rows="5"
+                                        placeholder="Message"
+                                        required></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <!-- <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div> -->
+                                </div>
+                                <div class="text-center"><button type="submit"
+                                        title="Send Message">Send
+                                        Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- <div class="card-box card-box-head-office mt-5 p-5">
+                    <div class="card-inner-block">
+                        <h4 class="card-title-head-office">
+                            Head Office
+                        </h4>
+                        <p class="contact-para mt-5">
+                            <i class="fa fa-map-marker me-2 align-middle float-start"></i>
+                            <span> 1/2, Ashirwad ind. Soc., Bhestan, surat, Gujarat, India-395023</span>
+                        </p>
+                        <p class="contact-para">
+                            <i class="fa fa-envelope me-2 align-middle float-start"></i>
+                            <span>info@wellgreenpillow.com</span>
+                        </p>
+                        <p class="contact-para">
+                            <i class="fa fa-phone me-2 align-middle float-start"></i>
+                            <span>+91 95864 23280</span>
+                        </p>
+                    </div>
+                </div> -->
+
+                <h2 class="title-h2 mt-5">Manufacturing Unit</h2>
+                <div class="row content-row mt-4 mt-lg-2">
+                    <div class="card py-4 pb-md-5 col-12 col-md-6 col-lg-4">
+                        <div class="card-box card-box-head-office p-4">
+                            <div class="card-inner-block">
+                                <h4 class="card-title-head-office p-4 ps-0">
+                                    <i class="fa fa-building" aria-hidden="true"></i>
+
+                                    Head Office 
                                 </h4>
-                                <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>Gokul Nagar-1, Junagadh Road, Jetpur, Gujarat.</span>
+                                <p class="contact-para ">
+                                    <i class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span> 1/2, Ashirwad ind. Soc., Bhestan, surat, Gujarat, India-395023</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>info@wellgreenpillow.com</span>
+                                    <i class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>info@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 95864 23280</span>
+                                    <i class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 95864 23280</span>
                                 </p>
                             </div>
                         </div>
+        
                     </div>
                     <div class="card p-4 pb-md-5 col-12 col-md-6 col-lg-4">
                         <div class="card-box">
@@ -90,16 +170,23 @@
                                     <span class="title-number">/02</span>
                                 </div>
                                 <h4 class="title-second">
-                                    Haryana Branch
+                                    Rajkot Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>2099 A/34, Ramnagar, Rohtak, Haryana.</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>Gokul Nagar-1, Junagadh Road, Jetpur,
+                                        Gujarat.</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>rohtak@wellgreenpillow.com</span>
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>info@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 85273 73190</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 95864 23280</span>
                                 </p>
                             </div>
                         </div>
@@ -111,21 +198,27 @@
                                     <span class="title-number">/03</span>
                                 </div>
                                 <h4 class="title-second">
-                                    Jodhpur Branch
+                                    Haryana Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>4-R, 50-Kudi Bhagatasani, Housing Board, Jodhpur, Rajsthan-340005</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>2099 A/34, Ramnagar, Rohtak,
+                                        Haryana.</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>jodhpur@wellgreenpillow.com</span>
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>rohtak@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 85038 50273</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 85273 73190</span>
                                 </p>
                             </div>
                         </div>
                     </div>
-    
                     <div class="card p-4 pb-md-5 col-12 col-md-6 col-lg-4">
                         <div class="card-box">
                             <div class="card-inner-block">
@@ -133,20 +226,28 @@
                                     <span class="title-number">/04</span>
                                 </div>
                                 <h4 class="title-second">
-                                    Ahmedabad Branch
+                                    Jodhpur Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>Prime Estate 2, B/h Sunrise Hotel, Uajala Circle Sarkhej, Ahmedabad, Gujarat - 382210</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>4-R, 50-Kudi Bhagatasani, Housing
+                                        Board, Jodhpur, Rajsthan-340005</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>ahmedabad@wellgreenpillow.com</span>                                
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>jodhpur@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 96629 23111</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 85038 50273</span>
                                 </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="card p-4 pb-md-5 col-12 col-md-6 col-lg-4">
                         <div class="card-box">
                             <div class="card-inner-block">
@@ -154,16 +255,24 @@
                                     <span class="title-number">/05</span>
                                 </div>
                                 <h4 class="title-second">
-                                    Kashmir Branch
+                                    Ahmedabad Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>Grid Station, 56 Phase 2nd Industrial Estate Khonmoh Srinagar, Kashmir-190001</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>Prime Estate 2, B/h Sunrise Hotel,
+                                        Uajala Circle Sarkhej, Ahmedabad,
+                                        Gujarat - 382210</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>kashmir@wellgreenpillow.com</span>
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>ahmedabad@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 60069 00554</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 96629 23111</span>
                                 </p>
                             </div>
                         </div>
@@ -175,16 +284,24 @@
                                     <span class="title-number">/06</span>
                                 </div>
                                 <h4 class="title-second">
-                                    Jharkhand Branch
+                                    Kashmir Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>C/O, Akram Enclave, Fx Hospital, Lohsigna, Hazaribagh, Jharkhand - 825301</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>Grid Station, 56 Phase 2nd Industrial
+                                        Estate Khonmoh Srinagar,
+                                        Kashmir-190001</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>jharkhand@wellgreenpillow.com</span>
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>kashmir@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 92641 86697</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 60069 00554</span>
                                 </p>
                             </div>
                         </div>
@@ -196,16 +313,24 @@
                                     <span class="title-number">/07</span>
                                 </div>
                                 <h4 class="title-second">
-                                    Mumbai Branch
+                                    Jharkhand Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>Ira icon, Ramkrishna Bazaar, Nandivli road Dombivli East, Mumbai, Maharashtra-421203</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>C/O, Akram Enclave, Fx Hospital,
+                                        Lohsigna, Hazaribagh, Jharkhand -
+                                        825301</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>mumbai@wellgreenpillow.com</span>
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>jharkhand@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 79777 09812</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 92641 86697</span>
                                 </p>
                             </div>
                         </div>
@@ -217,16 +342,24 @@
                                     <span class="title-number">/08</span>
                                 </div>
                                 <h4 class="title-second">
-                                    Latur Branch
+                                    Mumbai Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>Midc 1 No. Bus Stop, Aroma Hotel Samor Old Midc A.5 Latur  Maharashtra-413512</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>Ira icon, Ramkrishna Bazaar, Nandivli
+                                        road Dombivli East, Mumbai,
+                                        Maharashtra-421203</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>latur@wellgreenpillow.com</span>
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>mumbai@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 94219 67128</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 79777 09812</span>
                                 </p>
                             </div>
                         </div>
@@ -238,16 +371,53 @@
                                     <span class="title-number">/09</span>
                                 </div>
                                 <h4 class="title-second">
+                                    Latur Branch
+                                </h4>
+                                <p class="contact-para">
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>Midc 1 No. Bus Stop, Aroma Hotel Samor
+                                        Old Midc A.5 Latur
+                                        Maharashtra-413512</span>
+                                </p>
+                                <p class="contact-para">
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>latur@wellgreenpillow.com</span>
+                                </p>
+                                <p class="contact-para">
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 94219 67128</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-4 pb-md-5 col-12 col-md-6 col-lg-4">
+                        <div class="card-box">
+                            <div class="card-inner-block">
+                                <div class="title">
+                                    <span class="title-number">/10</span>
+                                </div>
+                                <h4 class="title-second">
                                     Uttrakhand Branch
                                 </h4>
                                 <p class="contact-para">
-                                   <i class="fa fa-map-marker me-2 align-middle float-start"></i> <span>Plot No. B/23, Industrial Estate, Kiccha Bypass Road, Rudrapur, U.S. Nagar Uttrakhand-244923</span>
+                                    <i
+                                        class="fa fa-map-marker me-2 align-middle float-start"></i>
+                                    <span>Plot No. B/23, Industrial Estate,
+                                        Kiccha Bypass Road, Rudrapur, U.S. Nagar
+                                        Uttrakhand-244923</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-envelope me-2 align-middle float-start"></i> <span>uttrakhand@wellgreenpillow.com</span>
+                                    <i
+                                        class="fa fa-envelope me-2 align-middle float-start"></i>
+                                    <span>uttrakhand@wellgreenpillow.com</span>
                                 </p>
                                 <p class="contact-para">
-                                    <i class="fa fa-phone me-2 align-middle float-start"></i> <span>+91 98370 21890</span>
+                                    <i
+                                        class="fa fa-phone me-2 align-middle float-start"></i>
+                                    <span>+91 98370 21890</span>
                                 </p>
                             </div>
                         </div>
@@ -256,7 +426,7 @@
             </div>
         </div>
         <!-- Contact Us End -->
-        
+
         <!-- Footer Start  -->
         <footer class="footer-section">
             <div class="container">

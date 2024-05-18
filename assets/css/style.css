@@ -702,6 +702,24 @@ section#about-us {
 .card {
   border: none;
   background: #f3f9f6;
+  padding-left: 0 !important;
+}
+
+@media (min-width: 992px) {
+
+  .card:first-child {
+    padding-right: 0 !important;
+  }
+  
+  .content-row .card:not(:nth-child(3n + 1)) .card-inner-block {
+    border-left: 1px solid #80c700; 
+    padding: 0 0 0 40px ;
+  }
+  
+    .content-row .card:nth-child(2) .card-inner-block {
+      border-left: 0px solid #80c700; 
+      padding: 0 0 0 40px;
+    }
 }
 
 .title-second {
@@ -740,4 +758,104 @@ section#about-us {
 
 .contact-us {
   background: #f3f9f6;
+}
+
+.footer-social-icon i:hover {
+  background-color: #216cb3;
+}
+
+.site-header__end a i:hover {
+  color: #216cb3;
+}
+
+
+#contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+#contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+#contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+#contact .php-email-form input,
+#contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+#contact .php-email-form input:focus,
+#contact .php-email-form textarea:focus {
+  border-color: #0067d5;
+}
+
+#contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+#contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+#contact .php-email-form button[type=submit] {
+  background: #0067d5;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.3s;
+  font-family: TTCommonsMedium;
+  letter-spacing: 0px;
+  font-size: 20px;
+}
+
+#contact .php-email-form button[type=submit]:hover {
+  background: #0067d5;
+  cursor: pointer;
+}
+
+.card-box-head-office {
+  background-color: #80c700;
+  color: white;
+}
+
+.card-title-head-office {
+  font-size: 2rem;
+}
+
+.card-box-head-office  .contact-para {
+  color: white;
 }
