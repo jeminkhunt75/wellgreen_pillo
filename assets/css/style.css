@@ -532,7 +532,7 @@ h5.sub-tittle {
 
 .main-title-page {
   padding: 50px 0 !important;
-  font-size: 40px !important;
+  font-size: 50px !important;
 }
 
 @media (max-width: 768px) {
@@ -555,7 +555,7 @@ h5.sub-tittle {
   }
 
   .main-title-page {
-    padding: 50px 0 20px 0 !important;
+    padding: 50px 0 30px 0 !important;
     font-size: 40px !important;
   }
 }
@@ -883,4 +883,41 @@ section#about-us {
   .card {
     padding: 24px !important;
   }
+}
+
+.breadcrumb-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 104px 0 110px;
+  position: relative;
+  width:100%;
+}
+.breadcrumb-image::before {
+  background: rgba(0, 0, 0, 0.80) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.breadcrumb-image h1 {
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 40px;
+  position: relative;
+  text-transform: uppercase;
+}
+.breadcrumbs_path {
+  color: #fff;
+  margin-top: 8px;
+  position: relative;
+  z-index: 9;
+}
+.breadcrumbs_path > a {
+  color: #fff;
+  transition: all 0.3s ease 0s;
 }
