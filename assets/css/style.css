@@ -764,6 +764,7 @@ section#about-us {
 }
 
 .contact-us {
+  padding-top: 50px;
   background: #f3f9f6;
 }
 
@@ -910,14 +911,17 @@ section#about-us {
   line-height: 40px;
   position: relative;
   text-transform: uppercase;
+  font-family: casolfch;  
 }
 .breadcrumbs_path {
   color: #fff;
   margin-top: 8px;
   position: relative;
   z-index: 9;
+  font-family: TTCommonsMedium;
 }
 .breadcrumbs_path > a {
   color: #fff;
   transition: all 0.3s ease 0s;
+  font-family: TTCommonsMedium;
 }
