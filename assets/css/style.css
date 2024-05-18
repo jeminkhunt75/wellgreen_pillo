@@ -871,3 +871,9 @@ section#about-us {
 .card-box-head-office  .contact-para {
   color: white;
 }
+
+@media (max-width: 584px) {
+  .card {
+    padding: 24px !important;
+  }
+}
