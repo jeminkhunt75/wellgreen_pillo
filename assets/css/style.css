@@ -569,15 +569,20 @@ span, p, a {
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 0;
-  color: #80c700;
+  color: white;
 }
 
 .feature_part .single_feature_part {
   text-align: center;
   border: 1px solid #80c700;
+  background: #80c700;
   padding: 35px;
   margin: 50px 0;
   font-family: TTCommonsMedium;
+}
+.feature_part .single_feature_part:hover {
+  background: #0067d5;
+  border: 1px solid #0067d5;
 }
 
 .section_padding {
@@ -589,6 +594,8 @@ span, p, a {
   max-width: 60px;
   min-height: 50px;
   margin-bottom: 15px;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
 }
 
 
