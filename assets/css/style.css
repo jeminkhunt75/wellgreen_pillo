@@ -852,6 +852,18 @@ section#about-us {
   color: white;
 }
 
+.card-box-head-office:hover {
+  background-color: #0067d5;
+  color: white;
+}
+
+.card-inner-block:hover .title-number {
+  color: #0067d586 !important;
+}
+.card-inner-block:hover .title-second {
+  color: #0067d5 !important;
+
+}
 .card-title-head-office {
   font-size: 2rem;
 }
