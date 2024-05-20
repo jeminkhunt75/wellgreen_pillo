@@ -998,3 +998,48 @@ section#about-us {
     padding: 0 ;
   }
 }
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .benefit-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 0;
+  color: black;
+  font-family: TTCommonsMedium;
+  font-size: 20px;
+}
+
+dl > * {
+  border-radius: 5px;
+  background: #80c70086;
+  padding: 1rem;
+}
+
+dl > :nth-of-type(2n) {
+  border-radius: 5px;
+  background: #216cb386;
+}
+
+dt {
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+dd {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}

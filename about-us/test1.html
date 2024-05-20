@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+    </style>
+</head>
+<body>
+    <div class="pb-5">
+        <h2 class="title-h2">Benefit To Connect With Wellgreen</h2>
+        <div class="benefit-grid">
+            <dl>
+                <dt>1.</dt>
+                <dd>High-quality products</dd>
+                <dt>2.</dt>
+                <dd>Skilled team of professionals</dd>
+                <dt>3.</dt>
+                <dd>Ethical business policies</dd>
+                <dt>4.</dt>
+                <dd>Easy payment modes</dd>
+            </dl>
+            <dl>
+                <dt>5.</dt>
+                <dd>Transparent dealings</dd>
+                <dt>6.</dt>
+                <dd>Wide distribution network</dd>
+                <dt>7.</dt>
+                <dd>Customized packaging</dd>
+                <dt>8.</dt>
+                <dd>Export to Asia and Middle East Countries.</dd>
+            </dl>
+        </div>
+    </div>
+    
+    <style>
+    .benefit-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    @media (min-width: 768px) {
+        .benefit-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5rem 0;
+        color: black;
+        font-family: TTCommonsMedium;
+        font-size: 20px;
+    }
+    
+    dl > * {
+        border-radius: 5px;
+        background: #80c70086;
+        padding: 1rem;
+    }
+    
+    dl > :nth-of-type(2n) {
+        border-radius: 5px;
+        background: #216cb386;
+    }
+    
+    dt {
+        margin-right: 5px;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+    
+    dd {
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    </style>
+    
+</body>
+</html>
