@@ -925,3 +925,76 @@ section#about-us {
   transition: all 0.3s ease 0s;
   font-family: TTCommonsMedium;
 }
+
+
+.history-div-section {
+  padding: 7rem 0;
+}
+
+.section-title {
+  color: #2f2f2f;
+  font-size: 2rem;
+}
+
+.history-div-section .img-wrap:before {
+  position: absolute;
+  content: "";
+  width: 255px;
+  height: 217px;
+  background-image: url(./../images/dots-blue.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-transform: translate(-31%, -35%);
+  -ms-transform: translate(-31%, -35%);
+  transform: translate(-31%, -35%);
+  z-index: -1;
+}
+
+.history-div-section .img-wrap img {
+  border-radius: 20px;
+}
+
+.history-div .icon:before {
+  content: "";
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  background: rgba(59, 93, 80, 0.2);
+  border-radius: 50%;
+  right: -8px;
+  bottom: 0;
+}
+
+.history-div .icon {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.history-div ul li::before {
+  content: "✔";
+  margin-right: 0.5rem;
+}
+
+.history-div ul {
+  list-style: none;
+}
+
+.history-div li {
+  position: relative;
+}
+
+.history-div li {
+  font-family: TTCommonsMedium;
+}
+
+
+@media (max-width: 992px) {
+  .history-div-section .img-wrap:before { 
+    display: none;
+  }
+  
+  .history-div-section {
+    padding: 0 ;
+  }
+}
