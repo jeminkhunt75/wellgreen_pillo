@@ -1022,13 +1022,25 @@ dl {
 
 dl > * {
   border-radius: 5px;
-  background: #80c70086;
+  border: 1px solid #80c70086;
   padding: 1rem;
+}
+
+dt:nth-of-type(2n):hover,
+dt:nth-of-type(2n):hover + dd {
+    background:#216cb3;
+    color: white;
+}
+
+dt:hover,
+dt:hover + dd {
+    background:#80c700;
+    color: white;
 }
 
 dl > :nth-of-type(2n) {
   border-radius: 5px;
-  background: #216cb386;
+  border: 1px solid #216cb386;
 }
 
 dt {
