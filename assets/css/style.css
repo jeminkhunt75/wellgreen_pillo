@@ -1055,3 +1055,19 @@ dd {
   display: flex;
   align-items: center;
 }
+
+.bg-frame-green {
+  background-color: #80c70086;
+}
+
+.bg-frame {
+  background-color: #0067d586;
+}
+
+.sub-title-about-us {
+  font-family: ChampagneLimousines;
+  color: #0067d5;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
