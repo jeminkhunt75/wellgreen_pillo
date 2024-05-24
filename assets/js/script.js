@@ -8,6 +8,7 @@ function includeHTML() {
       file = elmnt.getAttribute("include-html");
       if (file) {
           /* Make an HTTP request using the attribute value as the file name: */
+          file = "/wellgreen_pillo/" + file;
           xhttp = new XMLHttpRequest();
           xhttp.onreadystatechange = function () {
               if (this.readyState == 4) {
