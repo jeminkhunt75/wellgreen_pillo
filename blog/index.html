@@ -15,16 +15,39 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./../assets/css/reset.min.css" />
         <link rel="stylesheet" href="./../assets/css/style.css" />
-        <script
-        src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="../assets/js/script.js"></script>
+
+        <style>
+            .blog .blog-post .blog-post-thumbnail-wrapper {
+                height: 265px;
+                position: relative;
+                overflow: hidden;
+                margin-bottom: 26px; }
+
+                .blog .blog-post .blog-post-thumbnail-wrapper img {
+                    max-width: 100%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                .blog .blog-post .blog-post-thumbnail-wrapper img:hover {
+                    transform: scale(1.1);
+                }
+                
+              
+        </style>
     </head>
     <body>
         <!-- Header Start -->
         <header class="site-header">
             <div class="wrapper site-header__wrapper">
                 <div class="site-header__start">
-                    <a href="./../" class="brand h-8"><img
+                    <a href="#" class="brand h-8"><img
                             src="./../assets/images/logo.png" /></a>
                 </div>
                 <div class="site-header__middle">
@@ -37,13 +60,12 @@
                         </a>
                         <ul class="nav__wrapper">
                             <li class="nav__item"><a
-                                    href="./../">Home</a></li>
+                                    href="./../index.html">Home</a></li>
                             <li class="nav__item"><a href="./../about-us/">About
                                     Us</a></li>
                             <li class="nav__item"><a href="#">Products</a></li>
                             <li class="nav__item"><a href="#">Gallary</a></li>
-                            <li class="nav__item"><a
-                                    href="./../contact-us/">Contact</a></li>
+                            <li class="nav__item"><a href="./">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -61,9 +83,51 @@
         </header>
         <!-- Header End -->
 
-        <!-- Blog Start -->
-        
-        <!-- Blog End -->
+        <div class="banner-breadcum">
+            <div class="breadcrumb-image" style="background-image: url(../assets/images/banner_1.jpg);">
+                <div class="container text-center">
+                    <h1>Blog</h1>
+                    <div class="breadcrumbs_path">
+                        <a href="#">Home</a> <span>/</span> <a href="#">Blog</a>
+                    </div>      
+                </div>
+            </div>
+        </div>  
+        <!-- Blog Us Start -->
+        <div class="blog">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-12 col-md-6 col-lg-4 fetured-post blog-post" data-aos="fade-right">
+                        <div class="blog-post-thumbnail-wrapper">
+                            <img src="./../assets/images/blog_1.jpg" alt="blog post">
+                        </div>
+                        <p class="about-para pb-2">Blog post</p>
+                        <a href="#!" class="">
+                            <h6 class="blog-title mb-4">Day Sleep vs Night Sleep</h6>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 fetured-post blog-post" data-aos="fade-up">
+                        <div class="blog-post-thumbnail-wrapper">
+                            <img src="./../assets/images/blog_2.jpg" alt="blog post">
+                        </div>
+                        <p class="about-para pb-2">Blog post</p>
+                        <a href="#" class="">
+                            <h6 class="blog-title mb-4">Surprising Benefits of Bolsters</h6>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 fetured-post blog-post" data-aos="fade-left">
+                        <div class="blog-post-thumbnail-wrapper">
+                            <img src="./../assets/images/blog_3.jpg" alt="blog post">
+                        </div>
+                        <p class="about-para pb-2">Blog post</p>
+                        <a href="#" class="">
+                            <h6 class="blog-title mb-4">How Technology affects Sleep</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Us End -->
 
         <!-- Footer Start  -->
         <footer class="footer-section">
@@ -183,19 +247,6 @@
                 </div>
             </div>
         </footer>
-        
-        
         <!-- Footer End  -->
-        <script src="../assets/swiper/swiper-bundle.min.js"></script>
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-            <script type="text/javascript"
-            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-            
-            <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-            crossorigin="anonymous"></script>
-            <script src="../assets/js/script.js"></script>
-        </body>
+    </body>
 </html>
