@@ -1167,10 +1167,6 @@ dd {
   padding-bottom: 4rem;
   text-align: center;
 }
-.gallary-modal .modal-content h2, .gallary-modal .modal-content .h2 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
 .gallary-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
@@ -1206,3 +1202,4 @@ dd {
 .gallary-modal .close-modal:hover {
   opacity: 0.3;
 }
+
