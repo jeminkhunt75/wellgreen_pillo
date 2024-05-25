@@ -1087,3 +1087,33 @@ dd {
   font-size: 30px;
   font-family: TTCommonsMedium;
 }
+
+.sidebar-widget h5 {
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 15px;
+  color: #0067d5;
+  font-size: 30px;
+  font-family: ChampagneLimousines;
+  font-weight: 600;
+}
+
+.sidebar-widget h5:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 0px;
+  width: 35px;
+  height: 3px;
+  background: #80c700;
+}
+
+.sidebar-widget span {
+  font-size: 15px;
+} 
+
+
+.sidebar-widget h6 {
+  font-size: 22px;
+  font-family: ChampagneLimousines;
+} 
