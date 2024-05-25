@@ -1117,3 +1117,92 @@ dd {
   font-size: 22px;
   font-family: ChampagneLimousines;
 } 
+
+.gallary-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallary-item .gallary-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.gallary-item .gallary-link .gallary-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(128, 199, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+.gallary-item .gallary-link .gallary-hover .gallary-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+.gallary-item .gallary-link:hover .gallary-hover {
+  opacity: 1;
+}
+.gallary-item .gallary-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+.gallary-item .gallary-caption .gallary-caption-heading {
+  font-size: 1.5rem;
+  font-family: TTCommonsMedium;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.gallary-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+.gallary-modal .modal-content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.gallary-modal .modal-content h2, .gallary-modal .modal-content .h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.gallary-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: TTCommonsMedium;
+}
+.gallary-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.gallary-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+
+.gallary-modal .modal-content ul.list-inline li {
+  padding: 5px 0;
+}
+.gallary-modal .modal-content img {
+  margin-bottom: 2rem;
+}
+
+.gallary-modal .modal-body img {
+  background: #80c70068;
+  padding: 10px;
+}
+.gallary-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.gallary-modal .close-modal:hover {
+  opacity: 0.3;
+}
